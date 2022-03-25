@@ -23,6 +23,37 @@ else {
     }
 
 
+Algoritmo Juego
+	numSecreto <- 5
+	intentos <- 10
+	ganar<-0
+	
+	Mientras intentos > 0 Hacer
+		Escribir 'juego ! tienes ', intentos, ' intentos !'
+		Escribir 'Adivina un número!'
+		Leer num
+		Si num == numSecreto Entonces
+			Escribir 'El número secreto es ', num, ', Ganaste en ', (11-intentos), ' intentos !'
+			intentos <- 0
+			ganar <- 0
+		SiNo
+			 
+			intentos<-intentos -1
+			Si num < numSecreto Entonces
+				Escribir 'Es menor, te quedan ', intentos, ' intentos.'
+			SiNo
+				Escribir 'Es mayor, te quedan ', intentos, ' intentos.'
+			Fin Si
+			Si intentos == 0 Entonces
+				Escribir 'Perdiste !'
+			Fin Si
+		Fin Si
+		
+	Fin Mientras
+	
+	Escribir 'Fin del Juego?'	
+	
+FinAlgoritmo
 
 
 
