@@ -18,23 +18,22 @@ Algoritmo calificar
 FinAlgoritmo
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
+
+Algoritmo promEdad
+	Escribir 'Calcula edad promedio de un grupo de N alumnos.'
+	Escribir 'Cuál es el tamaño del grupo (N)?'
+	Leer N
+	suma<-0
+	prom<-0
+	edad<-0
+	Para i<-1 Hasta N Con Paso 1 Hacer
+		Escribir 'Edad del estudiante ', i, ' ?'
+		Leer edad
+		suma = suma + edad
+		prom = suma / i
+		Escribir 'El promedio parcial de ', i, ' alumnos es: ', prom
+	Fin Para
+	Escribir 'La edad promedio de ', (i -1), ' alumnos es: ', prom
+FinAlgoritmo
