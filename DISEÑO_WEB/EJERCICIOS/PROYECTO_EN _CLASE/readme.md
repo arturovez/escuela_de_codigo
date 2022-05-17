@@ -26,3 +26,7 @@ https://balsamiq.cloud/s1uwxqf/pth4vs3/rE39C
 
 ### UX
 Usando figma realizamos nuestro mockup --> https://www.figma.com/file/TakFMjlhLuybKfWnL6XaEQ/Untitled?node-id=7%3A345
+
+### Maquetado
+
+![image](https://user-images.githubusercontent.com/91554777/164350745-68c8eaa2-c136-4bbb-b314-61663d53081a.png)
